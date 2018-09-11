@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dava.AspitVisitor.Console",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dava.AspitVisitor.Biz", "Dava.AspitVisitor.Biz\Dava.AspitVisitor.Biz.csproj", "{A6583973-4F1C-4F34-B236-080D33264323}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dava.AspitVisitor.Server", "Dava.AspitVisitor.Server\Dava.AspitVisitor.Server.csproj", "{90539761-9303-4D6D-BC9C-CA77846E4642}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A6583973-4F1C-4F34-B236-080D33264323}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6583973-4F1C-4F34-B236-080D33264323}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6583973-4F1C-4F34-B236-080D33264323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90539761-9303-4D6D-BC9C-CA77846E4642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90539761-9303-4D6D-BC9C-CA77846E4642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90539761-9303-4D6D-BC9C-CA77846E4642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90539761-9303-4D6D-BC9C-CA77846E4642}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
