@@ -9,9 +9,7 @@ namespace Dava.AspitVisitor.Biz
 {
     public class BaseHandler
     {
-        private AspitVisitorModel model = new AspitVisitorModel();
-
-        protected AspitVisitorModel Model { get => model; }
+        protected AspitVisitorModel Model { get; } = new AspitVisitorModel();
 
         protected bool SaveChanges()
         {

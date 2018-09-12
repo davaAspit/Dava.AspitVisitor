@@ -18,7 +18,7 @@ namespace Dava.AspitVisitor.Console
             Visitor v = new Visitor()
             {
                 Age = 52,
-                Department = d,
+                DepartmentId = d.DepartmentId,
                 FirstName = "Karsten",
                 LastName = "Hansen",
                 Municipality = new Municipality() { Navn = "Hjørring"},
